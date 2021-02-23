@@ -1,25 +1,40 @@
-h1 {
-    color: #a32d51;
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@100&family=Open+Sans+Condensed:wght@300;700&display=swap');
+
+h1, h2 {
+    font-family: 'Lato', sans-serif;
+    color: #D20179;
+    font-size: 40px;
+    font-weight: 900;
+    letter-spacing: 1px;
 }
 
 h2 {
     font-size: 25px;
+    font-weight: 700;
+    letter-spacing: 1px;
 }
 
 p {
-    font-family: 'Open Sans', sans-serif;
+    font-family: 'Open Sans Condensed', sans-serif;
+    color: #333;
     font-size: 18px;
 }
 
+li {
+    font-family: 'Open Sans Condensed', sans-serif;
+    color: #333;
+}
+
 a {
+    font-family: 'Open Sans Condensed', sans-serif;
+    font-size: 16px;
     text-decoration: none;
-    color: #a32d51;
+    color: #D20179;
     font-weight: 900;
     font-size: 16px;
 }
 
 a:hover{
     text-decoration: underline;
-    color: purple;
-    font-size: 16px;
+    color: #91007B;
 }
