@@ -1,5 +1,9 @@
 @import url('https://fonts.googleapis.com/css2?family=Lato:wght@100&family=Open+Sans+Condensed:wght@300;700&display=swap');
 
+body {
+    
+}
+
 h1, h2 {
     font-family: 'Lato', sans-serif;
     color: #D20179;
@@ -37,4 +41,8 @@ a {
 a:hover{
     text-decoration: underline;
     color: #91007B;
+}
+
+div {
+
 }
