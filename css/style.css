@@ -1,7 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Lato:wght@100&family=Open+Sans+Condensed:wght@300;700&display=swap');
 
 body {
-    
+    font-family: 'Open Sans Condensed', sans-serif;
 }
 
 h1, h2 {
@@ -19,18 +19,15 @@ h2 {
 }
 
 p {
-    font-family: 'Open Sans Condensed', sans-serif;
     color: #333;
     font-size: 18px;
 }
 
 li {
-    font-family: 'Open Sans Condensed', sans-serif;
     color: #333;
 }
 
 a {
-    font-family: 'Open Sans Condensed', sans-serif;
     font-size: 16px;
     text-decoration: none;
     color: #D20179;
@@ -44,5 +41,7 @@ a:hover{
 }
 
 div {
+    width: 450px;
+    height: 350px;
 
 }
