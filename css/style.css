@@ -1,25 +1,86 @@
-h1 {
-    color: #a32d51;
+@import url('https://fonts.googleapis.com/css2?family=RocknRoll+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;600;800&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
 }
 
-h2 {
-    font-size: 25px;
-}
-
-p {
+body {
     font-family: 'Open Sans', sans-serif;
-    font-size: 18px;
 }
 
-a {
+.icon-logo {
+    color: #8c0de0;
+    padding-right: 15px;
+}
+
+.logo {
+    align-items: center;
+    color: #3a3a3a;
+    font-family: 'RocknRoll One', sans-serif;
+    font-size: 26px;
+    font-weight: 600;
     text-decoration: none;
-    color: #a32d51;
-    font-weight: 900;
-    font-size: 16px;
 }
 
-a:hover{
-    text-decoration: underline;
-    color: purple;
+header {
+    align-items: center;
+    border-bottom: 1.5px solid #f1f1f1;
+    display: flex;
+    font-weight: 300;
+    justify-content: space-between;
+    padding-left: 65px;
+    padding-right: 65px;
+    height: 60px;
+}
+
+.icon {
     font-size: 16px;
+    padding-right: 10px;
+}
+
+header ul {
+    align-items: center;
+    display: flex;
+}
+
+header ul li {
+    align-items: center;
+    list-style: none;
+}
+
+header ul li a {
+    color: #6a6a6a;
+    margin-right: 20px;
+    text-decoration: none;
+}
+
+.menu li a:hover {
+    color: #8c0de0;
+    font-weight: 800;
+    text-decoration: underline;
+    transition: all 0.5s ease-in-out;
+}
+
+.menu__link.ativo {
+    color: #8c0de0;
+    font-weight: 800;
+}
+
+.mensagem {
+    align-items: center;
+    background-color: #f1f1f1;
+    display: flex;
+    font-weight: 400;
+    height: 45px;
+    width: 100%;
+}
+
+.mensagem__alerta {
+    color: #3b3b3b;
+    font-size: 12px;
+    text-align: center;
+    padding: 65px;
 }

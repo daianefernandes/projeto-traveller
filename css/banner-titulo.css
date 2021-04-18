@@ -1,0 +1,13 @@
+.banner__titulo {
+    color: #1d1d1d;
+    font-family: 'RocknRoll One', sans-serif;
+    font-size: 38px;
+    margin: 45px 0;
+    padding-left: 65px;
+}
+
+/* .banner__titulo--destaque {
+    color: #2BE07A;
+    font-family: 'RocknRoll One', sans-serif;
+    font-size: 55px;
+} */
