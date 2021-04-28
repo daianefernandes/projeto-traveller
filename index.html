@@ -5,40 +5,49 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Projeto Traveller</title>
 
+    <link rel="icon" href="./images/icon.svg">
+    <link rel="stylesheet" href="./css/footer.css">
+    <link rel="stylesheet" href="./css/menu.css">
+    <link rel="stylesheet" href="./css/logo.css">
     <link rel="stylesheet" href="./css/style.css">
+    <link rel="stylesheet" href="./css/banner.css">
+    <link rel="stylesheet" href="./css/banner-button.css">
+    <link rel="stylesheet" href="./css/banner-imagem.css">
+    <link rel="stylesheet" href="./css/banner-titulo.css">
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"
+        integrity="sha512-iBBXm8fW90+nuLcSKlbmrPcLa0OT92xO1BIsZ+ywDWZCvqsWgccV3gFoRBv0z+8dLJgyAHIhR35VZc2oM/gI1w=="
+        crossorigin="anonymous" />
+
 </head>
 <body>
-    <div>
-        <h1 id="titulo">Conheça São Paulo</h1>
-        <p>
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Ad maiores eligendi fuga, 
-            ipsa provident corrupti sapiente nostrum perspiciatis magnam reiciendis, ipsam ab 
-            similique ducimus consequatur amet mollitia consequuntur minima labore.
-        </p>
-    </div>
-    <div>
-        <h2>Parques</h2>
-        <p>
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Ad maiores eligendi fuga, 
-            ipsa provident corrupti sapiente nostrum perspiciatis magnam reiciendis, ipsam ab 
-            similique ducimus consequatur amet mollitia consequuntur minima labore.
-        </p>
-    <div>
-        <p>
-            <img src="./images/foto4.jpg" alt="Ibirapuera - Visto do alto completo">
-        </p>
-    </div>
-        </p>
-            <a href="./pages/parques.html">Conheça nossos Parques</a>
-        </p>
-    </div>
-
-   <br>
-   <br>
-   <div>
-        <p>
-            <a href="#titulo">Topo da Página</a>
-        </p>
-    </div>
+    <section class="mensagem">
+        <a href="https://coronavirus.saude.gov.br" target="_blank" class="mensagem__alerta"><i
+                class="fas fa-exclamation-triangle icon"></i>ALERTA: Saiba mais sobre a COVID-19 e previna-se!</a>
+    </section>
+    <header>
+        <a href="./index.html"><img class="logo" src="../images/logo.png" alt="Projeto Traveller"></a>
+        <nav class="menu">
+            <ul>
+                <li><a href="./index.html" class="menu__link ativo"><i class="fas fa-home icon"></i>Home</a></li>
+                <li><a href="./pages/hospedagem.html" class="menu__link"><i
+                            class="fas fa-concierge-bell icon"></i>Hospedagem</a></li>
+                <li><a href="./pages/contato.html" class="menu__link"><i class="fas fa-at icon"></i>Contato</a></li>
+            </ul>
+        </nav>
+    </header>
+    <section class="banner">
+        <img class="banner__imagem" src="./images/banner-sp.jpg" alt="Imagem de São Paulo">
+        <h1 class="banner__titulo">Conheça São Paulo</h1>
+        <div>
+            <button class="banner__button"><a href="./pages/hospedagem.html">Saiba mais</a></button>
+        </div>
+    </section>
+    <footer class="rodape">
+        <div class="rodape__detalhes">
+            <p><i class="fas fa-user-astronaut icon-rodape"></i>2021 Projeto Traveller - Todos os direitos reservados
+            </p>
+        </div>
+    </footer>
 </body>
 </html>

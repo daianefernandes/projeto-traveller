@@ -1,47 +1,13 @@
-@import url('https://fonts.googleapis.com/css2?family=Lato:wght@100&family=Open+Sans+Condensed:wght@300;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=RocknRoll+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;600;800&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
 
 body {
-    font-family: 'Open Sans Condensed', sans-serif;
+    font-family: 'Open Sans', sans-serif;
 }
 
-h1, h2 {
-    font-family: 'Lato', sans-serif;
-    color: #D20179;
-    font-size: 40px;
-    font-weight: 900;
-    letter-spacing: 1px;
-}
-
-h2 {
-    font-size: 25px;
-    font-weight: 700;
-    letter-spacing: 1px;
-}
-
-p {
-    color: #333;
-    font-size: 18px;
-}
-
-li {
-    color: #333;
-}
-
-a {
-    font-size: 16px;
-    text-decoration: none;
-    color: #D20179;
-    font-weight: 900;
-    font-size: 16px;
-}
-
-a:hover{
-    text-decoration: underline;
-    color: #91007B;
-}
-
-div {
-    width: 450px;
-    height: 350px;
-
-}

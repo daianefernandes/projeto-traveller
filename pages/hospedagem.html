@@ -1,0 +1,165 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+        <link rel="icon" href="../images/icon.svg">
+        <link rel="stylesheet" href="../css/style.css">
+        <link rel="stylesheet" href="../css/logo.css">
+        <link rel="stylesheet" href="../css/menu.css">
+        <link rel="stylesheet" href="../css/banner.css">
+        <link rel="stylesheet" href="../css/bannerHospedagem/banner-container.css">
+        <link rel="stylesheet" href="../css/bannerHospedagem/banner-container-titulo.css">
+        <link rel="stylesheet" href="../css/footer.css">
+        <link rel="stylesheet" href="../css/hoteis.css">
+        <link rel="stylesheet" href="../css/hotel/hotel.css">
+        <link rel="stylesheet" href="../css/hotel/hotel-avaliacao.css">
+        <link rel="stylesheet" href="../css/hotel/hotel-conteudo.css">
+        <link rel="stylesheet" href="../css/hotel/hotel-botao.css">
+        <link rel="stylesheet" href="../css/hotel/hotel-imagem.css">
+        <link rel="stylesheet" href="../css/hotel/hotel-titulo.css">
+
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"
+            integrity="sha512-iBBXm8fW90+nuLcSKlbmrPcLa0OT92xO1BIsZ+ywDWZCvqsWgccV3gFoRBv0z+8dLJgyAHIhR35VZc2oM/gI1w=="
+            crossorigin="anonymous" />
+
+        <title>Projeto Traveller - Hospedagem</title>
+    </head>
+
+    <body>
+        <section class="mensagem">
+            <a href="https://coronavirus.saude.gov.br" target="_blank" class="mensagem__alerta"><i
+                    class="fas fa-exclamation-triangle icon"></i>ALERTA: Saiba mais sobre a COVID-19 e previna-se!</a>
+        </section>
+        <header>
+            <a href="../index.html"><img class="logo" src="../images/logo.png" alt="Projeto Traveller"></a>
+            <nav class="menu">
+                <ul>
+                    <li><a href="../index.html" class="menu__link"><i class="fas fa-home icon"></i>Home</a></li>
+                    <li><a href="../index.html" class="menu__link ativo"><i
+                                class="fas fa-concierge-bell icon"></i>Hospedagem</a></li>
+                    <li><a href="./contato.html" class="menu__link"><i class="fas fa-at icon"></i>Contato</a></li>
+                </ul>
+            </nav>
+        </header>
+        <section>
+            <div class="campos">
+                <div class="alinhados">
+                    <label for="abertura" class="legenda__campos">Irá viajar à:</label>
+                </div>
+                <div class="alinhados">
+                    <input class="componente__campos" type="radio" name="abertura" id="first">
+                    <label class="componente__legenda" for="first" class="componente">Trabalho</label>
+                    <input class="componente__campos" type="radio" name="abertura" id="second">
+                    <label class="componente__legenda"for="first" class="componente">Negócios</label>
+                    <input class="componente__campos" type="radio" name="abertura" id="third">
+                    <label class="componente__legenda" for="first" class="componente">Turismo</label>
+                </div>
+            </div>
+        </section>
+        <!-- <section class="banner__container">
+            <h2 class="banner__container--titulo">Saiba onde ficar em São Paulo</h2>
+            <p class="icon-detalhes"><i class="fas fa-arrow-down"></i></p>
+        </section> -->
+        <section class="conteudoPrincipal-hoteis">
+            <div class="hotel">
+                <img class="hotel__imagem" src="../images/card-hoteis/foto-hotel.jpg" alt="">
+                <div class="hotel__conteudo">
+                    <h4 class="hotel__titulo">Blue Tree Premium Paulista</h4>
+                    <p class="hotel__avaliacao">Avaliação:</p>
+                    <p>8.7</p>
+                    <button class="hotel__botao"><a href="../pages/detalhe-blueTreePaulista.html">Ver hotel</a></button>
+                </div>
+            </div>
+
+            <div class="hotel">
+                <img class="hotel__imagem" src="../images/card-hoteis/foto-hotel.jpg" alt="">
+                <div class="hotel__conteudo">
+                    <h4 class="hotel__titulo">Renaissance São Paulo Hotel</h4>
+                    <p class="hotel__avaliacao">Avaliação:</p>
+                    <p>8.7</p>
+                    <button class="hotel__botao"><a href="../pages/detalhe-renaissanceSaoPaulo.html">Ver hotel</a></button>
+                </div>
+            </div>
+
+            <div class="hotel">
+                <img class="hotel__imagem" src="../images/card-hoteis/foto-hotel.jpg" alt="">
+                <div class="hotel__conteudo">
+                    <h4 class="hotel__titulo">Bourbon Convention Ibirapuera</h4>
+                    <p class="hotel__avaliacao">Avaliação:</p>
+                    <p>8.5</p>
+                    <button class="hotel__botao"><a href="../pages/detalhe-bourbonConventionIbirapuera.html">Ver hotel</a></button>
+                </div>
+            </div>
+
+            <div class="hotel">
+                <img class="hotel__imagem" src="../images/card-hoteis/foto-hotel.jpg" alt="">
+                <div class="hotel__conteudo">
+                    <h4 class="hotel__titulo">Blue Tree Premium Morumbi</h4>
+                    <p class="hotel__avaliacao">Avaliação:</p>
+                    <p>8.4</p>
+                    <button class="hotel__botao"><a href="../pages/detalhe-blueTreeMorumbi.html">Ver hotel</a></button>
+                </div>
+            </div>
+            
+            <div class="hotel">
+                <img class="hotel__imagem" src="../images/card-hoteis/foto-hotel.jpg" alt="">
+                <div class="hotel__conteudo">
+                    <h4 class="hotel__titulo">Confort Ibirapuera São Paulo</h4>
+                    <p class="hotel__avaliacao">Avaliação:</p>
+                    <p>8.4</p>
+                    <button class="hotel__botao"><a href="../pages/detalhe-confortIbirapuera.html">Ver hotel</a></button>
+                </div>
+            </div>
+
+            <div class="hotel">
+                <img class="hotel__imagem" src="../images/card-hoteis/foto-hotel.jpg" alt="">
+                <div class="hotel__conteudo">
+                    <h4 class="hotel__titulo">Sheraton São Paulo WTC Hotel</h4>
+                    <p class="hotel__avaliacao">Avaliação:</p>
+                    <p class="hotel__avaliacao--nota">8.4</p>
+                    <button class="hotel__botao"><a href="../pages/detalhe-sheratonWtc.html">Ver hotel</a></button>
+                </div>
+            </div>
+
+            <div class="hotel">
+                <img class="hotel__imagem" src="../images/card-hoteis/foto-hotel.jpg" alt="">
+                <div class="hotel__conteudo">
+                    <h4 class="hotel__titulo">IBIS Styles São Paulo Anhembi</h4>
+                    <p class="hotel__avaliacao">Avaliação:</p>
+                    <p>8.3</p>
+                    <button class="hotel__botao"><a href="../pages/detalhe-ibisStyles.html">Ver hotel</a></button>
+                </div>
+            </div>
+
+            <div class="hotel">
+                <img class="hotel__imagem" src="../images/card-hoteis/foto-hotel.jpg" alt="">
+                <div class="hotel__conteudo">
+                    <h4 class="hotel__titulo">Golden Tulip Paulista Plaza</h4>
+                    <p class="hotel__avaliacao">Avaliação:</p>
+                    <p>8.3</p>
+                    <button class="hotel__botao"><a href="../pages/detalhe-goldenTulipPaulista.html">Ver hotel</a></button>
+                </div>
+            </div>
+
+            <div class="hotel">
+                <img class="hotel__imagem" src="../images/card-hoteis/foto-hotel.jpg" alt="">
+                <div class="hotel__conteudo">
+                    <h4 class="hotel__titulo">Mercure São Paulo Pamplona</h4>
+                    <p class="hotel__avaliacao">Avaliação:</p>
+                    <p>8.2</p>
+                    <button class="hotel__botao"><a href="../pages/detalhe-mercurePamplona.html">Ver hotel</a></button>
+                </div>
+            </div>
+
+        </section>
+        <footer class="rodape">
+            <div class="rodape__detalhes">
+                <p><i class="fas fa-user-astronaut icon-rodape"></i>2021 Projeto Traveller - Todos os direitos reservados
+                </p>
+            </div>
+        </footer>
+    </body>
+</html>
