@@ -1,11 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=RocknRoll+One&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;600;800&display=swap');
 
-.banner__imagem {
-    width: 100%;
-    height: calc(100vh - 105px);
-}
-
 .banner__button {
     background-color: rgba(0, 0, 0, 0.514);
     border: none;
@@ -25,3 +20,23 @@
     font-weight: 900;
     transition: ease-in 0.2s;
 }
+
+.banner__button a:link {
+    color: #f8f8f2;
+    text-decoration: none;
+}
+
+.banner__button a:visited {
+     color: #fdfdfd;
+     text-decoration: none;
+ }
+
+ .banner__button a:hover {
+     color: #fdfdfd;
+     text-decoration: none;
+ }
+ 
+ .banner__button a:active {
+     color: #8c0de0;
+     text-decoration: none;
+ }

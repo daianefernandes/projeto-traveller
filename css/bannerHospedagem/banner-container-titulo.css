@@ -1,0 +1,20 @@
+.banner__container--titulo {
+    color: #f8f8f2;
+    font-size: 58px;
+    padding-left: 60px;
+    position: relative;
+    top: 40%;
+}
+
+.icon-detalhes {
+    color: #f8f8f2;
+    font-size: 42px;
+    padding-left: 60px;
+    text-decoration: none;
+    margin-top: 18%;
+}
+
+.icon-detalhes:hover {
+    color: #000;
+    font-size: 42px;
+}
