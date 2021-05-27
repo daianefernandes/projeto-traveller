@@ -1,0 +1,17 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,400;0,600;0,700;0,800;1,500&display=swap');
+
+.banner-hospedagem {
+    height: 350px;
+    object-fit: cover;
+    object-position: 0 95%;
+}
+
+.titulo__banner {
+    color: #EFF2FB;
+    font-family: Poppins;
+    font-size: 43px;
+    font-weight: 800;
+    padding: 0 0 95px 145px;
+    text-align: left;
+    text-shadow: 6px 0px 4px rgba(61, 60, 60, 0.25), 0px 6px 4px rgba(61, 60, 60, 0.25);
+}
