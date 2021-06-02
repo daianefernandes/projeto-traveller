@@ -1,17 +1,32 @@
-@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,400;0,600;0,700;0,800;1,500&display=swap');
-
-.banner-hospedagem {
-    height: 350px;
+.imagem-carrossel {
+    height: 400px;
     object-fit: cover;
-    object-position: 0 95%;
+    object-position: 0 60%;
 }
 
-.titulo__banner {
+.titulo-banner {
     color: #EFF2FB;
-    font-family: Poppins;
-    font-size: 43px;
-    font-weight: 800;
-    padding: 0 0 95px 145px;
-    text-align: left;
+    font-family: 'Poppins', sans-serif;
     text-shadow: 6px 0px 4px rgba(61, 60, 60, 0.25), 0px 6px 4px rgba(61, 60, 60, 0.25);
+}
+
+.fonte-padrao {
+    font-family: 'Open Sans', sans-serif;
+}
+
+.card {
+    max-width: 18rem;
+}
+
+.icon {
+    color: #3D3C3C;
+    font-size: 24px;
+}
+
+.icon-star {
+    color: rgba(255, 84, 51, 0.9);;
+}
+
+.alerta-covid {
+    font-family: 'Noticia Text', serif;
 }
