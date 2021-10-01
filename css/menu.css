@@ -1,6 +1,7 @@
-@import url('https://fonts.googleapis.com/css2?family=RocknRoll+One&display=swap');
+
 
 header {
+    font-family: 'Open Sans', sans-serif;
     align-items: center;
     border-bottom: 1.5px solid #f1f1f1;
     display: flex;
@@ -40,6 +41,7 @@ header ul li a {
 }
 
 .menu__link.ativo {
+    font-weight: 700;
     color: #8c0de0;
     font-weight: 800;
 }

@@ -1,12 +1,20 @@
-<!doctype html>
+<!DOCTYPE html>
 <html lang="pt-br">
-
 <head>
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Projeto Traveller</title>
 
     <link rel="icon" href="./images/navbar/icon.svg">
-    <link rel="stylesheet" href="./css/bannerHospedagem/banner-hospedagem.css">
+    <link rel="stylesheet" href="./css/footer.css">
+    <link rel="stylesheet" href="./css/menu.css">
+    <link rel="stylesheet" href="./images/navbar/logo.svg">
+    <link rel="stylesheet" href="./css/style.css">
+    <link rel="stylesheet" href="./css/banner.css">
+    <link rel="stylesheet" href="./css/banner-button.css">
+    <link rel="stylesheet" href="./css/banner-imagem.css">
+    <link rel="stylesheet" href="./css/banner-titulo.css">
+
     <link rel="preconnect" href="https://fonts.gstatic.com">
     <link href="https://fonts.googleapis.com/css2?family=Noticia+Text&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@800&display=swap" rel="stylesheet">
@@ -15,17 +23,15 @@
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/css/bootstrap.min.css" rel="stylesheet"
         integrity="sha384-+0n0xVW2eSR5OomGNYDnhzAbDsOXxcvSN1TPprVMTNDbiYZCxYbOOl7+AMvyTG2x" crossorigin="anonymous">
 
-    <title>Traveller - Hospedagem</title>
 </head>
-
 <body>
-    <!-- MENU -->
-    <header>
+   <!-- MENU -->
+   <header>
         
         <nav class="navbar navbar-expand-lg navbar-light bg-light fonte-padrao">
             <div class="container-fluid mx-5 p-0">
                 <a class="navbar-brand" href="./index.html">
-                    <img src="./images/navbar/logo.svg" alt="Logo Traveller">
+                    <img src="../images/navbar/logo.svg" alt="Logo Traveller">
                 </a>
                 <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
                     aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
@@ -67,64 +73,54 @@
             </div>
         </section>
     </header>
-
+    <!-- MAIN -->
     <main>
         <!-- CARROSSEL -->
         <section id="carrossel-fluid">
             <div id="carouselExampleCaptions" class="carousel slide mx-5" data-bs-ride="carousel">
+                <div class="carousel-indicators">
+                    <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active"
+                        aria-current="true" aria-label="Slide 1"></button>
+                    <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1"
+                        aria-label="Slide 2"></button>
+                    <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2"
+                        aria-label="Slide 3"></button>
+                </div>
                 <div class="carousel-inner">
                     <div class="carousel-item active">
-                        <img src="./images/img-home/banner-home.png"
+                        <img src="../images/carrossel/carrossel-1.jpg"
                             class="rounded d-block w-100 imagem-carrossel m-0" alt="...">
-                        <div class="carousel-caption d-none d-md-block titulo-banner h-50"></div>
+                        <div class="carousel-caption d-none d-md-block titulo-banner h-50">
+                            <h1 class="display-4 text-start">Nossas melhores escolhas<br> para você</h1>
+                        </div>
                     </div>
-                </div>
-            </div>
-        </section>
-
-        <!-- BOTOES FILTROS -->
-        <!-- <section id="filtros">
-            <div class="p-0 mt-5 mb-5 mx-5 fonte-padrao">
-                <button type="button" class="btn btn-outline-dark m-1">Viagem a trabalho</button>
-                <button type="button" class="btn btn-outline-dark active m-1">Férias em família</button>
-                <button type="button" class="btn btn-outline-dark m-1">Viagem romântica</button>
-                <button type="button" class="btn btn-outline-dark m-1">Mochilão sozinho</button>
-                <button type="button" class="btn btn-outline-dark m-1">Viagem com amigos</button>
-            </div>
-        </section> -->
-
-        <!-- CARDS HOTEIS -->
-        <section class="container-fluid fonte-padrao">
-            <div class="row mx-2" id="conteudo">
-
-                <div class="col-6 col-sm-6 col-md-4 col-lg-3 my-2">
-                    <h2>Conheças as melhores hospedagens</h2>
-                    <p>Sugestões de favoritos do Traveller</p>
-                    <button type="button" class="btn btn-dark m-1">Descobrir</button>
-                </div>
-
-                <div class="col-12 col-sm-12 col-md-4 col-lg-3 my-2">
-                    <div class="card">
-                        <img src="./images/img-home/home-card1.png" class="card-img-top" alt="...">
-                        <div class="card-body">
-                            <h6 class="card-title"><strong>Confort Ibirapuera</strong></h6>
-                            <p class="card-text"><i class="fas fa-star icon-star"></i> 9,5</p>
-                            <a href="./detalhe-confortIbirapuera.html" class="btn btn-outline-dark">Ver detalhes</a>
+                    <div class="carousel-item">
+                        <img src="../images/carrossel/carrossel-2.jpg"
+                            class="rounded d-block w-100 imagem-carrossel m-0" alt="...">
+                        <div class="carousel-caption d-none d-md-block titulo-banner h-50">
+                            <h1 class="display-4 text-start">Encontre os melhores destinos</h1>
+                        </div>
+                    </div>
+                    <div class="carousel-item">
+                        <img src="../images/carrossel/carrossel-3.jpg"
+                            class="rounded d-block w-100 imagem-carrossel m-0" alt="...">
+                        <div class="carousel-caption d-none d-md-block titulo-banner h-50">
+                            <h1 class="display-4 text-start">Veja os hotéis mais bem<br> avaliados</h1>
                         </div>
                     </div>
                 </div>
-
-                <div class="col-12 col-sm-12 col-md-4 col-lg-3 my-2">
-                    <class class="card">
-                        <img src="./images/img-home/home-card2.png" class="card-img-top" alt="...">
-                        <a href="./detalhe-renaissanceSaoPaulo.html" class="btn btn-outline-dark">Pontos Turísticos</a>
-                        </class>
-                    </div>
-                </div>
+                <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions"
+                    data-bs-slide="prev">
+                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Previous</span>
+                </button>
+                <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions"
+                    data-bs-slide="next">
+                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Next</span>
+                </button>
             </div>
         </section>
-    </main>
-
 
     <!-- FOOTER -->
     <footer class="container-fluid bg-light p-3 mt-5 fonte-padrao">
@@ -132,35 +128,6 @@
                 class="fab fa-instagram icon ms-5"></i><i class="fab fa-facebook-square icon ms-3"></i><i
                 class="fab fa-twitter icon ms-3"></i></p>
     </footer>
-
-    <!-- MODAL LOGIN -->
-    <div class="modal fade" id="modal__login" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
-        <div class="modal-dialog">
-            <div class="modal-content">
-                <div class="modal-header">
-                    <h5 class="modal-title" id="exampleModalLabel">Login</h5>
-                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
-                </div>
-                <div class="modal-body">
-                    <form>
-                        <div class="mb-3">
-                            <label for="recipient-name" class="col-form-label">Usuário</label>
-                            <input type="text" class="form-control" id="recipient-name">
-                        </div>
-                        <div class="mb-3">
-                            <label for="password" class="col-form-label">Senha</label>
-                            <input type="password" class="form-control" id="password">
-                        </div>
-                    </form>
-                </div>
-                <div class="modal-footer">
-                    <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cancelar</button>
-                    <button type="button" class="btn btn-dark">Logar</button>
-                </div>
-            </div>
-        </div>
-    </div>
-
     <!-- ASSISTENTE LIBRAS -->
     <div vw class="enabled">
         <div vw-access-button class="active"></div>
@@ -168,17 +135,13 @@
             <div class="vw-plugin-top-wrapper"></div>
         </div>
     </div>
-
-    <!-- SCRIPTS -->
     <script src="https://vlibras.gov.br/app/vlibras-plugin.js"></script>
     <script>
         new window.VLibras.Widget('https://vlibras.gov.br/app');
     </script>
-
+    
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/js/bootstrap.bundle.min.js"
         integrity="sha384-gtEjrD/SeCtmISkJkNUaaKMoLD0//ElJ19smozuHV6z3Iehds+3Ulb9Bn9Plx0x4" crossorigin="anonymous">
     </script>
-
 </body>
-
 </html>
