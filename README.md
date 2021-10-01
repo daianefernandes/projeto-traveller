@@ -11,3 +11,5 @@
         <li>Detalhe da hospedagem;</li>
     <li>Contato;</li>
 </ul>
+
+<p><strong>Link do protótipo no figma:</strong> https://www.figma.com/file/6StzrZMah1PzTLwj3Kgnwy/Gulliver-Project?node-id=0%3A1</p>
