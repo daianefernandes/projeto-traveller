@@ -3,16 +3,17 @@
     flex-direction: column;
 }
 
-.contato__icon {
-    color: #44475a;
-    display: flex;
-    flex-direction: column;
-    font-size: 16px;
+iframe {
+    margin-top: 40px;
+    margin-left: 40px;
 }
 
-/* .contato__titulo {
-    color: #44475a;
-    display: flex;
-    flex-direction: column;
-    font-size: 14px;
-} */
+.subtitulo {
+    color: #3D3C3C;
+    font-family: 'Open Sans', sans-serif;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 18px;
+    line-height: 25px;
+    text-transform: uppercase;
+}
