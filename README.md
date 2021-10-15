@@ -15,8 +15,8 @@
 
 
 # Imagens
-<img src="./images/images-telas/Home.png" alt="Homepage">
-<img src="./images/images-telas/Hospedagem.png" alt="Hospedagem">
-<img src="./images/images-telas/Hospedagem - Detalhe 1.png" alt="Homepage">
-<img src="./images/images-telas/Hospedagem - Detalhe 2.png" alt="Homepage">
-<img src="./images/images-telas/Hospedagem - Detalhe 3.png" alt="Homepage">
+<img src="./assets/images/images-telas/Home.png" alt="Homepage">
+<img src="./assets/images/images-telas/Hospedagem.png" alt="Hospedagem">
+<img src="./assets/images/images-telas/Hospedagem - Detalhe 1.png" alt="Detalhe Hospedagem">
+<img src="./assets/images/images-telas/Hospedagem - Detalhe 2.png" alt="Detalhe Hospedagem">
+<img src="./assets/images/images-telas/Hospedagem - Detalhe 3.png" alt="Detalhe Hospedagem">
