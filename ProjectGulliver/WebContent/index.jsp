@@ -17,8 +17,7 @@
     <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@800&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600;700&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/css/bootstrap.min.css" rel="stylesheet"
-        integrity="sha384-+0n0xVW2eSR5OomGNYDnhzAbDsOXxcvSN1TPprVMTNDbiYZCxYbOOl7+AMvyTG2x" crossorigin="anonymous">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-+0n0xVW2eSR5OomGNYDnhzAbDsOXxcvSN1TPprVMTNDbiYZCxYbOOl7+AMvyTG2x" crossorigin="anonymous">
 
     <title>Traveller - Hospedagem</title>
 </head>
@@ -64,7 +63,7 @@
         <nav class="navbar navbar-expand-lg navbar-light bg-light fonte-padrao">
             <div class="container-fluid mx-5 p-0">
                 <a class="navbar-brand" href="./index.html">
-                    <img src="./images/navbar/logo.svg" alt="Logo Traveller">
+                    <img src="./assets/images/navbar/logo.svg" alt="Logo Traveller">
                 </a>
                 <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
                     aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
@@ -76,10 +75,10 @@
                             <a class="nav-link" href="./index.html">Home</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link active" href="./pages/hospedagem.html">Hospedagem</a>
+                            <a class="nav-link active" href="./hospedagem.html">Hospedagem</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="./pages/contato.html">Contato</a>
+                            <a class="nav-link" href="./contato.html">Contato</a>
                         </li>
                         <form class="d-flex">
                             <button class="btn btn-dark ms-2" data-bs-toggle="modal" data-bs-target="#modal__login" type="button">Login</button>
@@ -116,14 +115,14 @@
                 
                 <div class="col-3 justify-content-between">
                     <div class="card border-0">
-                        <img src="./images/img-home/home-card1.png" class="card-img-top" alt="Foto noturna de Nova York">
+                        <img src="./assets/images/img-home/home-card1.png" class="card-img-top" alt="Foto noturna de Nova York">
                             <a href="#" style="text-decoration:none"><h5 class="button-card">Pontos Turísticos</h5></a>
                     </div>
                 </div>
 
                 <div class="col-3 justify-content-between">
                     <div class="card border-0">
-                        <img src="./images/img-home/home-card2.png" class="card-img-top" alt="Viajante com mochila amarela nas costas">
+                        <img src="./assets/images/img-home/home-card2.png" class="card-img-top" alt="Viajante com mochila amarela nas costas">
                         <a href="#" style="text-decoration:none"><h5 class="button-card">Experiência</h5></a>
                     </div>
                 </div>
